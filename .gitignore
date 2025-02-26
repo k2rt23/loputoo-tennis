@@ -1,0 +1,11 @@
+﻿# Ignore Visual Studio ja ajutised failid
+.vs/
+*.vsidx
+*.suo
+*.user
+*.cache
+*.log
+bin/
+obj/
+Debug/
+Release/
