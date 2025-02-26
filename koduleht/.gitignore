@@ -1,0 +1,49 @@
+﻿# Visual Studio failid
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+
+# Bin ja obj (kompileeritud failid)
+bin/
+obj/
+Debug/
+Release/
+
+# Logid ja ajutised failid
+*.log
+*.tlog
+*.cache
+*.pid
+*.ncb
+*.opendb
+*.obj
+
+# Git ja temp failid
+.git/
+*.lock
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Paketid ja sõltuvused (ei ole vaja GitHubis)
+node_modules/
+bower_components/
+wwwroot/lib/
+
+# NuGet ja paketihaldurid
+*.nupkg
+project.lock.json
+packages/
+NPM_DEBUG.LOG
+
+# ASP.NET Core spetsiifilised failid
+appsettings.Development.json
+appsettings.Local.json
+
+# Docker ja konteinerifailid (kui ei kasuta Dockerit)
+docker-compose.override.yml
+docker-compose.yml
+Dockerfile
